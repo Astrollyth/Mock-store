@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="assets/fin.png" type="image/x-icon">
+    <title>About me</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+    <!-- navigation bar -->
+    <nav class="sticky">
+        <label for="drop" class="toggle" id="main-toggle">
+            <span class="nav-icon"></span>
+        </label>
+        <input type="checkbox" id="drop">
+        <ul class="main-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="account.html">Account</a></li>
+            <li><a href="cart.html">Cart</a></li>
+        </ul>
+    </nav>
+
+    <!-- introduction -->
+    <header class="align-center" style="text-align: center;">
+        <section class="align-center" style="display: flex; flex-direction: column; align-items: center;">
+            <h1 class="medium-spacing">We value</h1>
+            <h1 class="large">Your Feedback</h1>
+            <i>
+                <p class="justify">Your one-stop shop for all things electronic ── .✦</p>
+            </i>
+        </section>
+    </header>
+
+    <!-- Contact Form -->
+    <div class="card">
+        <p class="heading">Contact Us</p>
+
+        <form id="contactForm">
+            <div class="input-div">
+                <input type="text" class="input" id="email" placeholder="Email">
+                <small class="error-message" id="emailError"></small>
+            </div>
+            <div class="input-div">
+                <input class="input" type="text" id="phone" placeholder="Phone">
+                <small class="error-message" id="phoneError"></small>
+            </div>
+            <div class="input-div">
+                <input class="input" type="text" id="message" placeholder="Message">
+                <small class="error-message" id="messageError"></small>
+            </div>
+            <div class="button-div">
+                <button type="submit" class="submit">Submit</button>
+            </div>
+        </form>
+        <p id="successMessage" style="color: green; display: none;">Your message has been sent successfully!</p>
+    </div>
+
+    <style>
+        .error-message {
+            color: red;
+            font-size: 12px;
+        }
+    </style>
+
+     <!-- footer -->
+
+     <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>Download Our App</h3>
+                <p>Download App for Android and iOS mobile phone.</p>
+                <div class="app-buttons">
+                    <img src="assets/play-store.png" alt="Google Play">
+                    <img src="assets/app-store.png" alt="App Store">
+                </div>
+            </div>
+            <div class="footer-section logo-section">
+                <h2><span class="red">5</span>ST⭑R</h2>
+                <p>Your one-stop shop for all things electronic!
+
+                </p>
+            </div>
+            <div class="footer-section">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li><a href="#">Coupons</a></li>
+                    <li><a href="#">Blog Post</a></li>
+                    <li><a href="#">Return Policy</a></li>
+                    <li><a href="#">Join Affiliate</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Follow us</h3>
+                <ul>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">YouTube</a></li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Copyright 2025 - 5 Star Gadgets</p>
+    </footer>
+
+</body>
+</html>
